@@ -1,0 +1,5 @@
+{
+  "type": "dtquark:slab",
+  "primitive_soil": "quark:turf_slab",
+  "acceptable_soils": [ "dirt_like" ]
+}

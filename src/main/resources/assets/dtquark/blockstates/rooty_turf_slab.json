@@ -1,0 +1,6 @@
+{
+	"multipart": [
+		{   "apply": { "model": "quark:block/turf_slab_top" }},
+		{	"apply": { "model": "dtquark:block/roots_slab" }}
+	]
+}
