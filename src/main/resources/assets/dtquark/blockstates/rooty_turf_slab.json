@@ -1,6 +1,20 @@
 {
 	"multipart": [
-		{   "apply": { "model": "quark:block/turf_slab_top" }},
-		{	"apply": { "model": "dtquark:block/roots_slab" }}
+		{
+			"when": { "type": "top" },
+			"apply": { "model": "quark:block/turf_slab_top" }
+		},
+		{
+			"when": { "type": "top" },
+			"apply": { "model": "dtquark:block/roots_slab" }
+		},
+		{
+			"when": { "type": "double" },
+			"apply": { "model": "quark:block/turf" }
+		},
+		{
+			"when": { "type": "double" },
+			"apply": { "model": "dynamictrees:block/roots" }
+		}
 	]
 }

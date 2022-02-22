@@ -4,7 +4,7 @@ import com.ferreusveritas.dynamictrees.api.GatherDataHelper;
 import com.ferreusveritas.dynamictrees.api.registry.RegistryHandler;
 import com.ferreusveritas.dynamictrees.blocks.leaves.LeavesProperties;
 import com.ferreusveritas.dynamictrees.blocks.rootyblocks.SoilProperties;
-import com.ferreusveritas.dynamictrees.resources.DTResourceRegistries;
+import com.ferreusveritas.dynamictrees.resources.Resources;
 import com.ferreusveritas.dynamictrees.trees.Family;
 import com.ferreusveritas.dynamictrees.trees.Species;
 import net.minecraftforge.common.MinecraftForge;
@@ -46,7 +46,7 @@ public class DynamicTreesQuark
     }
 
     public void gatherData(final GatherDataEvent event) {
-        DTResourceRegistries.TREES_RESOURCE_MANAGER.gatherData();
+        Resources.MANAGER.gatherData();
         GatherDataHelper.gatherAllData(
                 MOD_ID,
                 event,

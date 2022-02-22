@@ -1,14 +1,14 @@
 modLoader="javafml"
 loaderVersion="[36,)"
 license="MIT"
-issueTrackerURL="https://github.com/supermassimo/DynamicTrees-ExC/issues"
+issueTrackerURL="https://github.com/DynamicTreesTeam/DynamicTrees-Quark/issues"
 
 [[mods]]
 modId="dtquark"
 version="${file.jarVersion}"
 displayName="Dynamic Trees for Quark"
 
-updateJSONURL="https://github.com/supermassimo/DynamicTrees-ExC/blob/1.12.2/.DONE/DynamicTrees-Quark/version_info.json?raw=true"
+updateJSONURL="https://github.com/DynamicTreesTeam/DynamicTreesVersionInfo/blob/master/Add-ons/Quark.json?raw=true"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/dynamic-trees-quark"
 
 authors="Max Hyper" #optional
