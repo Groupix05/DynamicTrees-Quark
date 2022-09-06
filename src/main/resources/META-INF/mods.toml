@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[36,)"
+loaderVersion="[36,37)"
 license="MIT"
 issueTrackerURL="https://github.com/DynamicTreesTeam/DynamicTrees-Quark/issues"
 
@@ -18,7 +18,7 @@ Compatibility Mod between Dynamic trees and Quark
 [[dependencies.dtquark]]
     modId="forge"
     mandatory=true
-    versionRange="[35,)"
+    versionRange="[36,37)"
     ordering="NONE"
     side="BOTH"
 
