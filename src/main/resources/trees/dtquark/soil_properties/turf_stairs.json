@@ -1,5 +1,0 @@
-{
-  "type": "dtquark:stairs",
-  "primitive_soil": "quark:turf_stairs",
-  "acceptable_soils": [ "dirt_like" ]
-}

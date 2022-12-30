@@ -48,19 +48,19 @@
     }
   },
   {
-    "select": { "types" : ["plains", "!savanna"] },
+    "select": { "type" : "plains" },
     "apply": {
       "species" : {
         "method" : "splice_before",
         "random" : {
           "dtquark:sunny_blossom" : 1,
-          "..." : 50
+          "..." : 100
         }
       }
     }
   },
   {
-    "select": { "types" : [ "mesa", "sparse" ] },
+    "select": { "type" : "mesa" },
     "apply": {
       "species" : {
         "method" : "splice_before",

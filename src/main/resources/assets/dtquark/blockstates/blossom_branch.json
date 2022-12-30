@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"": { "model": "dynamictrees:block/spruce_branch" }
+		"": { "model": "dtquark:block/blossom_branch" }
 	}
 }

@@ -8,6 +8,8 @@ import java.time.format.DateTimeFormatter
 
 fun property(key: String) = project.findProperty(key).toString()
 
+apply(from = "https://gist.githubusercontent.com/Harleyoc1/4d23d4e991e868d98d548ac55832381e/raw/applesiliconfg.gradle")
+
 plugins {
     id("java")
     id("net.minecraftforge.gradle")
@@ -37,7 +39,7 @@ version = "$mcVersion-$modVersion"
 group = property("group")
 
 minecraft {
-    mappings("official", mcVersion)
+    mappings("parchment", "${property("mappingsVersion")}-$mcVersion")
 
     runs {
         create("client") {
@@ -79,16 +81,14 @@ sourceSets.main.get().resources {
 dependencies {
     minecraft("net.minecraftforge:forge:$mcVersion-${property("forgeVersion")}")
 
+    implementation(fg.deobf("com.ferreusveritas.dynamictrees:DynamicTrees-$mcVersion:${property("dynamicTreesVersion")}"))
     implementation(fg.deobf("vazkii.autoreglib:AutoRegLib:${property("arlVersion")}"))
     implementation(fg.deobf("vazkii.quark:Quark:${property("quarkVersion")}"))
-    implementation(fg.deobf("com.ferreusveritas.dynamictrees:DynamicTrees-$mcVersion:${property("dynamicTreesVersion")}"))
 
-    runtimeOnly(fg.deobf("curse.maven:hwyla-253449:3033593"))
-    runtimeOnly(fg.deobf("vazkii.patchouli:Patchouli:${property("patchouliVersion")}"))
+    runtimeOnly(fg.deobf("curse.maven:jade-324717:3970956"))
     runtimeOnly(fg.deobf("mezz.jei:jei-$mcVersion:${property("jeiVersion")}"))
     runtimeOnly(fg.deobf("org.squiddev:cc-tweaked-$mcVersion:${property("ccVersion")}"))
-    runtimeOnly(fg.deobf("curse.maven:ShutUpExperimentalSettings-407174:3188120"))
-    runtimeOnly(fg.deobf("com.harleyoconnor.suggestionproviderfix:SuggestionProviderFix:$mcVersion-${property("suggestionProviderFixVersion")}"))
+    runtimeOnly(fg.deobf("com.harleyoconnor.suggestionproviderfix:SuggestionProviderFix-1.18.1:${property("suggestionProviderFixVersion")}"))
 }
 
 tasks.jar {
@@ -110,7 +110,7 @@ java {
     withSourcesJar()
 
     toolchain {
-        languageVersion.set(JavaLanguageVersion.of(8))
+        languageVersion.set(JavaLanguageVersion.of(17))
     }
 }
 

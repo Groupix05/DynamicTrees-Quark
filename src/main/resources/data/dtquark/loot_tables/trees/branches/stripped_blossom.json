@@ -14,7 +14,7 @@
               "function": "minecraft:explosion_decay"
             }
           ],
-          "name": "quark:blossom_log"
+          "name": "quark:stripped_blossom_log"
         }
       ]
     },
