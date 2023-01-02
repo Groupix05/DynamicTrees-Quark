@@ -133,7 +133,6 @@ curseforge {
                 relations {
                     requiredDependency("dynamictrees")
                     requiredDependency("quark")
-                    optionalDependency("chunk-saving-fix")
                 }
             }
         }
