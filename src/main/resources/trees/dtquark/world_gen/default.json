@@ -1,6 +1,6 @@
 [
   {
-    "select": { "type" : "cold" },
+    "select": { "tag" : "forge:is_cold/overworld" },
     "apply": {
       "species" : {
         "method" : "splice_before",
@@ -12,7 +12,7 @@
     }
   },
   {
-    "select": { "type" : "swamp" },
+    "select": { "tag" : "forge:is_swamp" },
     "apply": {
       "species" : {
         "method" : "splice_before",
@@ -24,7 +24,7 @@
     }
   },
   {
-    "select": { "type" : "savanna" },
+    "select": { "tag" : "forge:is_savanna" },
     "apply": {
       "species" : {
         "method" : "splice_before",
@@ -36,7 +36,7 @@
     }
   },
   {
-    "select": { "type" : "mountain" },
+    "select": { "tag" : "minecraft:is_mountain" },
     "apply": {
       "species" : {
         "method" : "splice_before",
@@ -48,7 +48,7 @@
     }
   },
   {
-    "select": { "type" : "plains" },
+    "select": { "tag" : "forge:is_plains" },
     "apply": {
       "species" : {
         "method" : "splice_before",
@@ -60,7 +60,7 @@
     }
   },
   {
-    "select": { "type" : "mesa" },
+    "select": { "tag" : "minecraft:is_badlands" },
     "apply": {
       "species" : {
         "method" : "splice_before",
