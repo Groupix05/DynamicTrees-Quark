@@ -1,7 +1,7 @@
 {
     "parent": "dynamictrees:item/branch",
     "textures": {
-        "bark": "block/blossom_log",
-        "rings": "block/blossom_log_top"
+        "bark": "quark:block/blossom_log",
+        "rings": "quark:block/blossom_log_top"
     }
 }

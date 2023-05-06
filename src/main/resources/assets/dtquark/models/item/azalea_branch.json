@@ -1,7 +1,7 @@
 {
     "parent": "dynamictrees:item/branch",
     "textures": {
-        "bark": "block/azalea_log",
-        "rings": "block/azalea_log_top"
+        "bark": "quark:block/azalea_log",
+        "rings": "quark:block/azalea_log_top"
     }
 }

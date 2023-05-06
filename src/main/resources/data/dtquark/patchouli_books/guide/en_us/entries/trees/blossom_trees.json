@@ -1,7 +1,7 @@
 {
   "name": "Blossom Trees",
   "icon": "dtquark:sweet_blossom_seed",
-  "category": "trees",
+  "category": "dynamictrees:trees",
   "sortnum": "6",
   "pages": [
 	{

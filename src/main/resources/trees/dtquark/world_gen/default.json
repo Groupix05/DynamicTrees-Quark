@@ -36,7 +36,7 @@
     }
   },
   {
-    "select": { "type" : "mountain" },
+    "select": { "types" : [ "mountain", "!mesa" ] },
     "apply": {
       "species" : {
         "method" : "splice_before",
