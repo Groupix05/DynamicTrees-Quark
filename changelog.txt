@@ -1,0 +1,4 @@
+Changes:\n
+- Azalea trees now use quark's azalea logs\n
+\n
+Requires Dynamic Trees 0.11.0-Beta10.1
