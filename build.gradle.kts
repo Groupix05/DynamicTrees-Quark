@@ -125,7 +125,7 @@ curseforge {
 
             addGameVersion(mcVersion)
 
-            changelog = file("changelog.txt")
+            changelog = file("build/changelog.txt")
             changelogType = "markdown"
             releaseType = property("curseFileType")
 
