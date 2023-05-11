@@ -28,6 +28,7 @@ repositories {
     }
     maven("https://harleyoconnor.com/maven")
     maven("https://squiddev.cc/maven/")
+    mavenLocal()
 }
 
 val modName = property("modName")
@@ -69,6 +70,7 @@ minecraft {
                 "--output", file("src/generated/resources/"),
                 "--existing", file("src/main/resources"),
                 "--existing-mod", "dynamictrees",
+                "--existing-mod", "quark",
                 "--existing-mod", "dynamictreesplus"
             )
         }
