@@ -5,7 +5,7 @@
   "tapering": 0,
   "signal_energy": 4,
   "growth_rate": 1.2,
-  "soil_longevity": 2,
+  "soil_longevity": 1,
   "generate_seed": true,
   "generate_sapling": true,
   "cap_properties": "dtquark:glow_shroom",
@@ -23,7 +23,7 @@
       "min_age_curve_factor": 0.4,
       "curve_factor_variation": 0,
       "pointed_tip_max_age": 2,
-      "chance_to_age": 0.5,
+      "chance_to_age": 0.25,
       "max_cap_age": 3
     }
   },
