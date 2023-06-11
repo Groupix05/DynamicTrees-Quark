@@ -75,10 +75,10 @@
   {
     "only_if_loaded": "dynamictreesplus",
     "select": { "name": "quark:glimmering_weald" },
-    "apply": {
-      "subterranean": true,
+    "cave_rooted": {
       "species" : "dtquark:glow_shroom",
-      "chance" : "standard"
+      "chance": 1.0,
+      "generate_on_surface": false
     }
   }
 ]
