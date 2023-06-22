@@ -50,3 +50,11 @@ Compatibility Mod between Dynamic trees and Quark
     versionRange="[r2.4-312,)"
     ordering="AFTER"
     side="BOTH"
+
+#This is important to prevent ecologics' plain biome replacement from replacing blossom tree generation
+[[dependencies.dtquark]]
+    modId="dtecologics"
+    mandatory=false
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

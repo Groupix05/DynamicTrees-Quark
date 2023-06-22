@@ -36,7 +36,11 @@
     }
   },
   {
-    "select": { "types" : [ "mountain", "!mesa" ] },
+    "select": {
+      "AND": [
+        {"OR" : [ {"type": "slope"}, {"type": "hills"} ]},
+        {"type": "!mesa"}
+      ] },
     "apply": {
       "species" : {
         "method" : "splice_before",
