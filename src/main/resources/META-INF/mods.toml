@@ -33,7 +33,7 @@ side = "BOTH"
 [[dependencies.dtquark]]
 modId = "dynamictrees"
 mandatory = true
-versionRange = "[1.1.0-BETA1,)"
+versionRange = "[1.1.0-BETA7,)"
 ordering = "AFTER"
 side = "BOTH"
 
