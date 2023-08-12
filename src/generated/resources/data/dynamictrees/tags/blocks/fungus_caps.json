@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "dtquark:glow_shroom_sapling"
+    {
+      "id": "dtquark:glow_shroom_branch",
+      "required": false
+    }
   ]
 }

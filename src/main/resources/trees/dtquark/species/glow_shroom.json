@@ -1,6 +1,6 @@
 {
   "only_if_loaded": "dynamictreesplus",
-  "type": "dynamictreesplus:mushroom",
+  "type": "dtquark:glow_shroom",
   "family": "dtquark:glow_shroom",
   "tapering": 0,
   "signal_energy": 4,

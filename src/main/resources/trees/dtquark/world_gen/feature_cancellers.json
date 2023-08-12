@@ -1,15 +1,11 @@
 [
   {
-    "only_if_loaded": "dynamictreesplus",
-    "select": {
-      "name": "quark:glimmering_weald"
-    },
-    "cancellers": {
+    "_comment": "Disabled for now, underground generation is WIP",
+    "_only_if_loaded": "dynamictreesplus",
+    "_select": { "name": "quark:glimmering_weald" },
+    "_cancellers": {
       "type": "dtquark:mushroom",
-      "namespaces": [
-        "minecraft",
-        "quark"
-      ],
+      "namespaces": ["minecraft", "quark"],
       "stage": "UNDERGROUND_DECORATION"
     }
   }
