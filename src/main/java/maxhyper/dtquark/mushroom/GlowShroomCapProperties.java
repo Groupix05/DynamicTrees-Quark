@@ -1,4 +1,4 @@
-package maxhyper.dtquark.dynamictreesplus;
+package maxhyper.dtquark.mushroom;
 
 import com.ferreusveritas.dynamictrees.api.registry.TypedRegistry;
 import com.ferreusveritas.dynamictreesplus.block.mushroom.CapProperties;
