@@ -1,8 +1,9 @@
 {
   "parent": "dynamictrees:block/smartmodel/sapling",
+  "render_type": "minecraft:cutout_mipped",
   "textures": {
-    "particle": "quark:block/orange_blossom_leaves",
+    "leaves": "quark:block/orange_blossom_leaves",
     "log": "quark:block/blossom_log",
-    "leaves": "quark:block/orange_blossom_leaves"
+    "particle": "quark:block/orange_blossom_leaves"
   }
 }

@@ -1,8 +1,9 @@
 {
   "parent": "dtquark:block/glow_shroom",
+  "render_type": "minecraft:cutout_mipped",
   "textures": {
+    "cap": "dtquark:block/glow_shroom_cap",
     "particle": "dtquark:block/glow_shroom_cap",
-    "stem": "dtquark:block/glow_shroom_cap",
-    "cap": "dtquark:block/glow_shroom_cap"
+    "stem": "dtquark:block/glow_shroom_cap"
   }
 }

@@ -1,9 +1,5 @@
 {
-  "replace": false,
   "values": [
-    {
-      "id": "dtquark:glow_shroom_seed",
-      "required": false
-    }
+    "dtquark:glow_shroom_seed"
   ]
 }

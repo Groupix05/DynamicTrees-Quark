@@ -1,8 +1,13 @@
 package maxhyper.dtquark;
 
+import com.ferreusveritas.dynamictrees.api.cell.CellKit;
+import com.ferreusveritas.dynamictrees.api.registry.RegistryEvent;
 import com.ferreusveritas.dynamictrees.api.registry.TypeRegistryEvent;
 import com.ferreusveritas.dynamictrees.block.leaves.LeavesProperties;
+import com.ferreusveritas.dynamictrees.growthlogic.GrowthLogicKit;
 import com.ferreusveritas.dynamictrees.util.CommonVoxelShapes;
+import maxhyper.dtquark.cell.DTQuarkCellKits;
+import maxhyper.dtquark.growthlogic.DTQuarkGrowthLogicKits;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.phys.shapes.Shapes;
@@ -25,6 +30,16 @@ public class DTQuarkRegistries {
     @SubscribeEvent
     public static void registerLeavesPropertiesTypes(final TypeRegistryEvent<LeavesProperties> event) {
         event.registerType(new ResourceLocation(DynamicTreesQuark.MOD_ID, "blossom"), BlossomLeavesProperties.TYPE);
+    }
+
+    @SubscribeEvent
+    public static void registerCellKits(RegistryEvent<CellKit> event) {
+        DTQuarkCellKits.register(event.getRegistry());
+    }
+
+    @SubscribeEvent
+    public static void registerGrowthLogicKits(RegistryEvent<GrowthLogicKit> event) {
+        DTQuarkGrowthLogicKits.register(event.getRegistry());
     }
 
 }
