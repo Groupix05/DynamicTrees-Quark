@@ -18,6 +18,7 @@ plugins {
     id("idea")
     id("maven-publish")
     id("com.matthewprenger.cursegradle") version "1.4.0"
+    id("com.modrinth.minotaur") version "2.+"
     id("com.harleyoconnor.autoupdatetool") version "1.0.7"
 }
 
@@ -37,6 +38,7 @@ val modName = property("modName")
 val modId = property("modId")
 val modVersion = property("modVersion")
 val mcVersion = property("mcVersion")
+val dtVersion = property("dynamicTreesVersion")
 
 version = "$mcVersion-$modVersion"
 group = property("group")
@@ -86,7 +88,7 @@ sourceSets.main.get().resources {
 dependencies {
     minecraft("net.minecraftforge:forge:$mcVersion-${property("forgeVersion")}")
 
-    implementation(fg.deobf("com.ferreusveritas.dynamictrees:DynamicTrees-$mcVersion:${property("dynamicTreesVersion")}"))
+    implementation(fg.deobf("com.ferreusveritas.dynamictrees:DynamicTrees-$mcVersion:$dtVersion"))
     implementation(fg.deobf("curse.maven:autoreglib-250363:4100299"))
     implementation(fg.deobf("curse.maven:quark-243121:4587248"))
 
@@ -153,6 +155,27 @@ curseforge {
     }
 }
 
+modrinth {
+    if (!project.hasProperty("modrinthToken")) {
+        project.logger.warn("Token for Modrinth not detected; uploading will be disabled.")
+        return@modrinth
+    }
+
+    token.set(property("modrinthToken"))
+    projectId.set("dynamic-trees-quark")
+    versionNumber.set("$mcVersion-$modVersion")
+    versionType.set(optionalProperty("versionType") ?: "release")
+    uploadFile.set(tasks.jar.get())
+    gameVersions.add(mcVersion)
+    if (changelogFile.exists()) {
+        changelog.set(changelogFile.readText())
+    }
+    dependencies {
+        required.version("vdjF5PL5", "$mcVersion-$dtVersion")
+        required.version("qnQsVE2z", "$mcVersion-3.4-405")
+    }
+}
+
 tasks.withType<GenerateModuleMetadata> {
     enabled = false
 }
@@ -177,7 +200,7 @@ autoUpdateTool {
 }
 
 tasks.autoUpdate {
-    finalizedBy("curseforge")
+    finalizedBy("curseforge", "modrinth")
 }
 
 fun RunConfig.applyDefaultConfiguration(runDirectory: String = "run") {
