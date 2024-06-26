@@ -3,7 +3,6 @@
   "render_type": "minecraft:cutout_mipped",
   "textures": {
     "leaves": "quark:block/ancient_leaves",
-    "log": "quark:block/ancient_log",
-    "particle": "quark:block/ancient_leaves"
+    "log": "quark:block/ancient_log"
   }
 }

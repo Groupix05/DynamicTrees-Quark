@@ -3,7 +3,6 @@
   "render_type": "minecraft:cutout_mipped",
   "textures": {
     "cap": "dtquark:block/glow_shroom_cap",
-    "particle": "dtquark:block/glow_shroom_cap",
-    "stem": "dtquark:block/glow_shroom_cap"
+    "stem": "quark:block/glow_shroom_stem"
   }
 }

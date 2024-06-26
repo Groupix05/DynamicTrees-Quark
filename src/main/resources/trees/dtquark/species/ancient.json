@@ -13,5 +13,16 @@
     "#forge:is_dry": 0.25,
     "#forge:is_wet": 0.75
   },
-  "perfect_biomes": { "name": "minecraft:deep_dark" }
+  "perfect_biomes": { "name": "minecraft:deep_dark" },
+  "fruits": [
+    "dtquark:ancient_fruit"
+  ],
+  "features": [
+    {
+      "name": "fruit",
+      "properties": {
+        "fruit": "dtquark:ancient_fruit"
+      }
+    }
+  ]
 }

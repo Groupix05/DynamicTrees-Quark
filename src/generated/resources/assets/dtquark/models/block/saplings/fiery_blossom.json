@@ -3,7 +3,6 @@
   "render_type": "minecraft:cutout_mipped",
   "textures": {
     "leaves": "quark:block/red_blossom_leaves",
-    "log": "quark:block/blossom_log",
-    "particle": "quark:block/red_blossom_leaves"
+    "log": "quark:block/blossom_log"
   }
 }

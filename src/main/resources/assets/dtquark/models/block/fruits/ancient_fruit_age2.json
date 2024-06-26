@@ -1,0 +1,50 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"1": "dtquark:block/ancient_fruit",
+		"2": "dtquark:block/ancient_fruit_stem",
+		"particle": "dtquark:block/ancient_fruit"
+	},
+	"elements": [
+		{
+			"from": [6, 10.4, 6.3],
+			"to": [8.6, 13, 8.9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-3, -2, -2]},
+			"faces": {
+				"north": {"uv": [0, 5, 5, 10], "texture": "#1", "tintindex": 0},
+				"east": {"uv": [0, 5, 5, 10], "texture": "#1", "tintindex": 0},
+				"south": {"uv": [0, 5, 5, 10], "texture": "#1", "tintindex": 0},
+				"west": {"uv": [0, 5, 5, 10], "texture": "#1", "tintindex": 0},
+				"up": {"uv": [0, 5, 5, 10], "texture": "#1", "tintindex": 0},
+				"down": {"uv": [0, 10, 6, 16], "texture": "#1", "tintindex": 0}
+			}
+		},
+		{
+			"from": [6.3, 13, 6.6],
+			"to": [8.3, 15, 8.6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 5, 5], "texture": "#1", "tintindex": 0},
+				"east": {"uv": [0, 0, 5, 5], "texture": "#1", "tintindex": 0},
+				"south": {"uv": [0, 0, 5, 5], "texture": "#1", "tintindex": 0},
+				"west": {"uv": [0, 0, 5, 5], "texture": "#1", "tintindex": 0},
+				"up": {"uv": [0, 10, 6, 16], "texture": "#1", "tintindex": 0},
+				"down": {"uv": [0, 0, 5, 5], "texture": "#1", "tintindex": 0}
+			}
+		},
+		{
+			"from": [8.3, 15, 7.7],
+			"to": [8.3, 16, 8.5],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 9, 9], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 3], "texture": "#2", "tintindex": 1},
+				"east": {"uv": [2, 0, 0, 2], "texture": "#2", "tintindex": 1},
+				"south": {"uv": [0, 0, 0, 3], "texture": "#2", "tintindex": 1},
+				"west": {"uv": [0, 0, 2, 2], "texture": "#2", "tintindex": 1},
+				"up": {"uv": [0, 3, 0, 0], "texture": "#2", "tintindex": 1},
+				"down": {"uv": [0, 0, 0, 3], "texture": "#2", "tintindex": 1}
+			}
+		}
+	]
+}
