@@ -4,6 +4,7 @@ import com.ferreusveritas.dynamictrees.api.GatherDataHelper;
 import com.ferreusveritas.dynamictrees.api.registry.RegistryHandler;
 import com.ferreusveritas.dynamictrees.block.leaves.LeavesProperties;
 import com.ferreusveritas.dynamictrees.block.rooty.SoilProperties;
+import com.ferreusveritas.dynamictrees.systems.fruit.Fruit;
 import com.ferreusveritas.dynamictrees.tree.family.Family;
 import com.ferreusveritas.dynamictrees.tree.species.Species;
 import com.ferreusveritas.dynamictreesplus.init.DTPConfigs;
@@ -62,6 +63,7 @@ public class DynamicTreesQuark {
                 SoilProperties.REGISTRY,
                 Family.REGISTRY,
                 Species.REGISTRY,
+                Fruit.REGISTRY,
                 LeavesProperties.REGISTRY);
     }
 
