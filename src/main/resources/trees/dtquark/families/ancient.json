@@ -3,5 +3,6 @@
   "common_species": "dtquark:ancient",
   "primitive_log": "quark:ancient_log",
   "primitive_stripped_log": "quark:stripped_ancient_log",
-  "max_branch_radius": 8
+  "max_branch_radius": 8,
+  "max_signal_depth": 40
 }

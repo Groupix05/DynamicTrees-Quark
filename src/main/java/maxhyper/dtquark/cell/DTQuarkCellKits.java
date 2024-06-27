@@ -5,6 +5,7 @@ import com.ferreusveritas.dynamictrees.api.cell.CellKit;
 import com.ferreusveritas.dynamictrees.api.cell.CellNull;
 import com.ferreusveritas.dynamictrees.api.cell.CellSolver;
 import com.ferreusveritas.dynamictrees.api.registry.Registry;
+import com.ferreusveritas.dynamictrees.cell.CellKits;
 import com.ferreusveritas.dynamictrees.cell.ConiferBranchCell;
 import com.ferreusveritas.dynamictrees.cell.ConiferTopBranchCell;
 import com.ferreusveritas.dynamictrees.cell.MetadataCell;
@@ -29,7 +30,7 @@ public class DTQuarkCellKits {
                 new AncientLeafCell(7)
         };
 
-        private final com.ferreusveritas.dynamictrees.cell.CellKits.BasicSolver solver = new com.ferreusveritas.dynamictrees.cell.CellKits.BasicSolver(new short[]{0x0514, 0x0413, 0x0312, 0x0211});
+        private final CellKits.BasicSolver solver = new com.ferreusveritas.dynamictrees.cell.CellKits.BasicSolver(new short[]{0x0514, 0x0413, 0x0312, 0x0211});
 
         @Override
         public Cell getCellForLeaves(int hydro) {
