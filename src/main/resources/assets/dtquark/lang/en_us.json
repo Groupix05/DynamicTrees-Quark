@@ -1,4 +1,5 @@
 {
+  "block.dtquark.ancient_branch":"Ancient Tree",
   "block.dtquark.blossom_branch":"Blossom Tree",
   "block.dtquark.azalea_branch":"Azalea Tree",
   "block.dtquark.glow_shroom_branch":"Glow Shroom",
@@ -10,6 +11,7 @@
   "species.dtquark.sweet_blossom":"Sweet",
   "species.dtquark.warm_blossom":"Warm",
   "species.dtquark.glow_shroom":"Glow Shroom",
+  "species.dtquark.ancient":"Ancient",
 
   "item.dtquark.fiery_blossom_seed":"Fiery Blossom Pit",
   "item.dtquark.frosty_blossom_seed":"Frosty Blossom Pit",
@@ -17,5 +19,6 @@
   "item.dtquark.sunny_blossom_seed":"Sunny Blossom Pit",
   "item.dtquark.sweet_blossom_seed":"Sweet Blossom Pit",
   "item.dtquark.warm_blossom_seed":"Warm Blossom Pit",
-  "item.dtquark.glow_shroom_seed":"Glow Shroom Cap"
+  "item.dtquark.glow_shroom_seed":"Glow Shroom Cap",
+  "item.dtquark.ancient_seed":"Ancient Seeds"
 }
