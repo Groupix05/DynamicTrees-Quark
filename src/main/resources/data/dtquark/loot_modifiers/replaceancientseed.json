@@ -6,14 +6,11 @@
       "terms": [
         {
           "condition": "forge:loot_table_id",
-          "loot_table_id": "minecraft:chests/ancient_city"
-        },
-        {
-          "condition": "forge:loot_table_id",
           "loot_table_id": "minecraft:gameplay/sniffer_digging"
         }
       ]
     }
   ],
-  "item": "dtquark:ancient_seed"
+  "old_item": "quark:ancient_sapling",
+  "new_item": "dtquark:ancient_seed"
 }

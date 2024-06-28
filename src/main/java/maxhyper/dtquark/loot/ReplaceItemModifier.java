@@ -19,20 +19,21 @@ import java.util.function.Supplier;
 public class ReplaceItemModifier extends LootModifier {
     public static final Supplier<Codec<ReplaceItemModifier>> CODEC = Suppliers.memoize(()
             -> RecordCodecBuilder.create(inst -> codecStart(inst)
-                .and(ForgeRegistries.ITEMS.getCodec().fieldOf("item").forGetter(m -> m.item))
+            .and(ForgeRegistries.ITEMS.getCodec().fieldOf("old_item").forGetter(m -> m.old_item))
+            .and(ForgeRegistries.ITEMS.getCodec().fieldOf("new_item").forGetter(m -> m.new_item))
                 .apply(inst, ReplaceItemModifier::new)));
-    private final Item item;
+    private final Item old_item;
+    private final Item new_item;
 
-    protected ReplaceItemModifier(LootItemCondition[] conditionsIn, Item item) {
+    protected ReplaceItemModifier(LootItemCondition[] conditionsIn, Item oldItem, Item newItem) {
         super(conditionsIn);
-        this.item = item;
+        this.old_item = oldItem;
+        this.new_item = newItem;
     }
-
-    Item ancientSapling = ForgeRegistries.ITEMS.getValue(new ResourceLocation("quark", "ancient_sapling"));
 
     @Override
     protected @NotNull ObjectArrayList<ItemStack> doApply(ObjectArrayList<ItemStack> generatedLoot, LootContext context) {
-        generatedLoot.replaceAll(itemStack -> itemStack.getItem().equals(ancientSapling) ? new ItemStack(item) : itemStack);
+        generatedLoot.replaceAll(itemStack -> itemStack.getItem().equals(old_item) ? new ItemStack(new_item) : itemStack);
         return generatedLoot;
     }
 

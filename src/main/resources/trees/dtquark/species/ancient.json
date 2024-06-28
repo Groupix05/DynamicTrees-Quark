@@ -9,7 +9,7 @@
   "world_gen_leaf_map_height": 40,
   "growth_logic_kit": "dtquark:ancient",
   "leaves_properties": "dtquark:ancient",
-  "perfect_biomes": { "name": "minecraft:deep_dark" },
+  "perfect_biomes": { "tag": "#forge:is_magical" },
   "primitive_saplings": [
     { "sapling_block": "quark:ancient_sapling" },
     {
@@ -17,6 +17,8 @@
       "can_craft_seed_to_sapling": false
     }
   ],
+  "seasonal_fruiting_offset": null,
+  "inherit_fruiting_offset_to_fruits": true,
   "fruits": [
     "dtquark:ancient_fruit"
   ],
