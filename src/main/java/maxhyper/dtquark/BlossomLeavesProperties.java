@@ -37,7 +37,7 @@ public class BlossomLeavesProperties extends LeavesProperties {
                     double windStrength = 5.0 + Math.cos((double)worldIn.getGameTime() / 2000.0) * 2.0;
                     double windX = Math.cos((double)worldIn.getGameTime() / 1200.0) * windStrength;
                     double windZ = Math.sin((double)worldIn.getGameTime() / 1000.0) * windStrength;
-                    worldIn.addParticle(new BlockParticleOption(ParticleTypes.BLOCK, stateIn), (double)pos.getX() + 0.5, (double)pos.getY() + 0.5, (double)pos.getZ() + 0.5, windX, -1.0, windZ);
+                    worldIn.addParticle(new BlockParticleOption(ParticleTypes.BLOCK, stateIn), (double)pos.getX() + 0.5, pos.getY(), (double)pos.getZ() + 0.5, windX, -1.0, windZ);
                 }
                 super.animateTick(stateIn, worldIn, pos, rand);
             }
