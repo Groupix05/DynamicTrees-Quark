@@ -4,9 +4,11 @@
   "common_cap": "dtquark:glow_shroom",
   "common_species": "dtquark:glow_shroom",
   "primitive_log": "quark:glow_shroom_stem",
-  "outside_branch_texture": "quark:block/glow_shroom_stem",
-  "inside_branch_texture": "quark:block/glow_shroom_block_inside",
   "stick": "air",
   "generate_stripped_branch": false,
-  "max_branch_radius": 24
+  "max_branch_radius": 24,
+  "texture_overrides": {
+    "branch": "quark:block/glow_shroom_stem",
+    "branch_top": "quark:block/glow_shroom_block_inside"
+  }
 }

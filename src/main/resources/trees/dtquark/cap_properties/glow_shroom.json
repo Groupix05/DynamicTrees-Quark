@@ -5,5 +5,13 @@
   "age_zero_shape": "dtquark:glow_shroom_age0",
 
   "material_color": "DIRT",
-  "light": 12
+  "light": 12,
+  "model_overrides": {
+    "outside_face": "quark:block/glow_shroom_block_side",
+    "inside_face": "quark:block/glow_shroom_block_inside"
+  },
+  "texture_overrides": {
+    "outside_face": "quark:block/glow_shroom_block",
+    "inside_face": "quark:block/glow_shroom_block_inside"
+  }
 }
