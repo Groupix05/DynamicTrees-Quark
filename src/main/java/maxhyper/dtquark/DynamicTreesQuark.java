@@ -7,6 +7,7 @@ import com.ferreusveritas.dynamictrees.block.rooty.SoilProperties;
 import com.ferreusveritas.dynamictrees.systems.fruit.Fruit;
 import com.ferreusveritas.dynamictrees.tree.family.Family;
 import com.ferreusveritas.dynamictrees.tree.species.Species;
+import com.ferreusveritas.dynamictreesplus.block.mushroom.CapProperties;
 import maxhyper.dtquark.loot.LootModifiers;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.common.MinecraftForge;
@@ -61,7 +62,8 @@ public class DynamicTreesQuark {
                 Family.REGISTRY,
                 Species.REGISTRY,
                 Fruit.REGISTRY,
-                LeavesProperties.REGISTRY);
+                LeavesProperties.REGISTRY,
+                CapProperties.REGISTRY);
     }
 
     public static ResourceLocation location(final String path) {

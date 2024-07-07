@@ -19,12 +19,12 @@
   "mushroom_shape_kit": {
     "name": "dynamictreesplus:bell",
     "properties": {
-      "max_age_curve_factor": 0.4,
+      "max_age_curve_factor": 0.5,
       "min_age_curve_factor": 0.4,
-      "curve_factor_variation": 0,
-      "pointed_tip_max_age": 2,
-      "chance_to_age": 0.25,
-      "max_cap_age": 3
+      "curve_factor_variation": 0.1,
+      "pointed_tip_max_age": 1,
+      "chance_to_age": 0.1,
+      "max_cap_age": 2
     }
   },
   "primitive_sapling": "quark:glow_shroom",

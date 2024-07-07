@@ -40,7 +40,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "minecraft:air"
+              "name": "quark:glow_shroom"
             }
           ]
         }

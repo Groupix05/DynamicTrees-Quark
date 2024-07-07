@@ -1,9 +1,9 @@
-// 1.20.1	2024-07-03T23:52:31.6497212	Loot Tables
-87ff2497ac365f47b41faae2c31f900e8c61a0fd data/dtquark/loot_tables/blocks/ancient_fruit.json
+// 1.20.1	2024-07-06T15:25:17.6887985	Loot Tables
+a96bd6273175931e5710f05d174469dc35613972 data/dtquark/loot_tables/blocks/ancient_fruit.json
 883eb30bce4823fc641c705be2f06ba51e74b03a data/dtquark/loot_tables/blocks/ancient_leaves.json
 10f697412a3cfe4178ee0c9252d68cba9c4f31dc data/dtquark/loot_tables/blocks/fiery_blossom_leaves.json
 411e6d2890e2f602a97674b223f5896565b268ec data/dtquark/loot_tables/blocks/frosty_blossom_leaves.json
-d7c5c57e01ffd1f3474eccd743d519d1ab805a21 data/dtquark/loot_tables/blocks/glow_shroom_cap.json
+357d8bcb33997d079672ee27a5182a161e0d396f data/dtquark/loot_tables/blocks/glow_shroom_cap.json
 d91fa139fe78615bb9b031443d4767e03049d50e data/dtquark/loot_tables/blocks/serene_blossom_leaves.json
 167d81d7633ac0eb796c82ffb84858cfa9281b3a data/dtquark/loot_tables/blocks/sunny_blossom_leaves.json
 5a1c0361478ad774ac5e95c8b6cf76e8eae5c8a0 data/dtquark/loot_tables/blocks/warm_blossom_leaves.json
@@ -20,7 +20,7 @@ b2649b63ec27ca567e090f6f4fa5439371cbb21a data/dtquark/loot_tables/trees/leaves/f
 9897998360a5dcc3dca59a5ab9481bb2ec6a3d1d data/dtquark/loot_tables/trees/leaves/serene_blossom.json
 1b50a3d5b169b7eaf577babead4794bff85de453 data/dtquark/loot_tables/trees/leaves/sunny_blossom.json
 2a370d0bd002cf4d191ca2414fdedd43642b2302 data/dtquark/loot_tables/trees/leaves/warm_blossom.json
-a04ab4b8554834ba02a549ba51d3a3aace3e6ad7 data/dtquark/loot_tables/trees/mushroom_caps/glow_shroom.json
+1376a6b0e019f3065f793821c40c234a075e82bc data/dtquark/loot_tables/trees/mushroom_caps/glow_shroom.json
 77bfda9abd9df9bcb4da9a971f7da8a1fa893635 data/dtquark/loot_tables/trees/voluntary/ancient.json
 5792f794da2717a1b55666db4cdfcf1a22bcaaa9 data/dtquark/loot_tables/trees/voluntary/fiery_blossom.json
 21c98acf06d0b660e93fcc093711e2cbce3dd17b data/dtquark/loot_tables/trees/voluntary/frosty_blossom.json

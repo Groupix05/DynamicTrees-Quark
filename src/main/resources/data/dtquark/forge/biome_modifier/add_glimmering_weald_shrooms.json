@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "quark:glimmering_weald",
+  "features": "dtquark:dynamic_glow_shrooms",
+  "step": "underground_decoration"
+}

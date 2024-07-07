@@ -1,9 +1,6 @@
 {   "parent": "block/block",
   "textures": {
-    "particle": "quark:block/glow_shroom_block",
-    "bottom": "quark:block/glow_shroom_block_inside",
-    "top": "quark:block/glow_shroom_block",
-    "side": "quark:block/glow_shroom_block"
+    "particle": "#side"
   },
   "elements": [
     {   "from": [ 0, 0, 0 ],

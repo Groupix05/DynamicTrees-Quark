@@ -3,12 +3,13 @@
   "type": "dtquark:glow_shroom",
   "primitive_cap": "quark:glow_shroom_block",
   "age_zero_shape": "dtquark:glow_shroom_age0",
-
   "material_color": "DIRT",
   "light": 12,
+  "mushroom_item": "quark:glow_shroom",
   "model_overrides": {
     "outside_face": "quark:block/glow_shroom_block_side",
-    "inside_face": "quark:block/glow_shroom_block_inside"
+    "inside_face": "quark:block/glow_shroom_block_inside",
+    "cap_center_age_0_parent": "dtquark:block/tall_slab"
   },
   "texture_overrides": {
     "outside_face": "quark:block/glow_shroom_block",

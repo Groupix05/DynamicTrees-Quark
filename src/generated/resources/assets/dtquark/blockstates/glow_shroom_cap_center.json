@@ -2,7 +2,7 @@
   "multipart": [
     {
       "apply": {
-        "model": "dtquark:block/glow_shroom_cap_center_age0"
+        "model": "dtquark:block/mushroom/glow_shroom_cap_center_age0"
       },
       "when": {
         "age": "0"
@@ -55,7 +55,7 @@
     },
     {
       "apply": {
-        "model": "quark:block/glow_shroom_block_side",
+        "model": "quark:block/glow_shroom_block_inside",
         "x": 90
       },
       "when": {
